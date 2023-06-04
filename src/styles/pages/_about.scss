@@ -1,0 +1,71 @@
+.about-compo {
+  margin: 200px 0;
+
+  .about-content {
+    max-width: 1350px;
+    margin: 10rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+
+    .about {
+      .about-text {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        padding-right: 50px;
+
+        h2 {
+          font-weight: 500;
+          font-size: 1.4rem;
+          margin-bottom: 15px;
+          font-family: $font2;
+        }
+
+        h1 {
+          font-size: 2rem;
+          font-family: $font1;
+          margin-bottom: 30px;
+        }
+
+        p {
+          color: #706f7b;
+          font-weight: 300;
+          font-size: 1rem;
+          font-family: $font2;
+          line-height: 1.4rem;
+          margin-bottom: 50px;
+          line-height: 1.6;
+        }
+      }
+
+      .about-logo {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+
+        img {
+          margin-bottom: 20px;
+        }
+
+        span {
+          display: flex;
+
+          h1 {
+            font-size: 3rem;
+            margin-right: 10px;
+          }
+
+          p {
+            color: #706f7b;
+            font-weight: 300;
+            font-size: 1rem;
+            font-family: $font2;
+            padding: 15px;
+          }
+        }
+      }
+    }
+  }
+}
